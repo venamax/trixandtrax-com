@@ -1,0 +1,99 @@
+                .wiziappshare_main
+                {
+                    background-color: white;
+                    font-family: Arial, sans-serif;
+                    font-size : 18px;
+                }
+
+                .wiziappshare_general
+                {
+                    border-style: solid;
+                    border-width: 1px;
+                    border-color: #cfcfcf;
+                    border-radius: 5px;
+                    background-color: #f9f9f9;
+                    margin-left : 15px;
+                    margin-top: 20px;
+                }
+
+                .wizappshare_options
+                {
+                    border-style: solid;
+                    border-width: 2px;
+                    border-color: #cfcfcf;
+                    border-radius: 5px;
+                    background-color: #f9f9f9;
+                    margin-left : 15px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+
+                .wiziappshare_main .wiziappshare_title
+                {
+                    font-size : 16px;
+                    border-bottom-color : #cfcfcf;
+                    border-bottom-width: 1px;
+                    border-bottom-style: solid;
+                    padding : 10px 0 10px 90px;
+                }
+
+                .wiziappshare_main .wiziappshare_inner_title
+                {
+                    font-size : 18px;
+                    font-weight: bold;
+                    padding : 20px 0 20px 90px;
+                }
+
+                .wiziappshare_line
+                {
+                    padding : 10px 0 10px 90px;
+                }
+
+                .wizappshare_options .wiziappshare_line
+                {
+                    background-size: 40px;
+                    background-repeat: no-repeat;
+                    line-height: 40px;
+                    background-position: 90px;
+                    vertical-align: middle;
+                }
+
+                .wizappshare_options .wiziappshare_line input
+                {
+                    margin-left: 55px;
+                }
+
+                .wiziappshare_main input
+                {
+                    margin-right: 20px;
+                    margin-top: 5px;
+                }
+
+                .wiziappshare_mail_line
+                {
+                    background-image:url('MailIcon.png');
+                }
+
+                .wiziappshare_google_line
+                {
+                    background-image:url('GooglePlusIcon.png');
+                }
+
+                .wiziappshare_facebook_line
+                {
+                    background-image:url('FacebookIcon.png');
+                }
+
+                .wiziappshare_linkedin_line
+                {
+                    background-image:url('LinkedinIcon.png');
+                }
+
+                .wiziappshare_twitter_line
+                {
+                    background-image:url('TwitterIcon.png');
+                }
+                .wiziappshare_main input[type="submit"]
+		{
+	            margin-left : 15px;
+		}

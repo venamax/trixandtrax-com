@@ -1,0 +1,88 @@
+.wiziappshare-toolbar
+{
+    background-image:url('sharingtoolbaricon.png');
+    bottom : 50px;
+}
+
+.wiziappshare-menu
+{
+    display : none;
+}
+
+.wiziappshare-button
+{
+    height : 44px;
+    width : 230px;
+    z-index: 2100;
+    position: fixed;
+    left : 35px;
+    cursor : pointer;
+}
+
+#wiziappshare-mail
+{
+    background-image:url('MailIcon.png');
+}
+
+#wiziappshare-google
+{
+    background-image:url('GooglePlusIcon.png');
+}
+
+#wiziappshare-facebook
+{
+    background-image:url('FacebookIcon.png');
+    background-repeat: no-repeat;
+}
+
+#wiziappshare-linkedin
+{
+    background-image:url('LinkedinIcon.png');
+}
+
+#wiziappshare-twitter
+{
+    background-image:url('TwitterIcon.png');
+}
+
+#wiziappshare-lightbox-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2000;
+	display: none;
+}
+
+.wiziappshare_show
+{
+    display: none;
+}
+
+.wiziappshare-static-menu
+{
+    width:100%;
+    overflow-x:hidden;
+    white-space:nowrap;
+    padding : 0;
+}
+
+.wiziappshare-static-menu li
+{
+    height : 44px;
+    width : 44px;
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.wiziappshare-static-menu .wiziappshare-button
+{
+    background-size: 44px 44px;
+    display: block;
+    height : 44px;
+    width : 44px;
+    z-index: 2100;
+    position: initial;
+    cursor : pointer;
+}

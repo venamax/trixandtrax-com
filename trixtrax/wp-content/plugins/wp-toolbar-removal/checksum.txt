@@ -1,0 +1,18 @@
+WP Toolbar Removal - TRUNK - Version 2014.0707.0392 (Build 2014-07-07) MD5 Checksum:
+
+index.htm                                           89A986ADE5F2DE5E82A862BFB9F8668B
+index.html                                          89A986ADE5F2DE5E82A862BFB9F8668B
+
+.htaccess                                           86F545FDF5664486536A56953F8A1E08
+
+gpl-2.0.txt                                         B234EE4D69F5FCE4486A80FDAF4A4263
+humans.txt                                          C1509896B9059CDB6BA0A74F6F78CE74
+index.php                                           91CF7C943D4B47004CCE5098C63E28A5
+license.txt                                         B234EE4D69F5FCE4486A80FDAF4A4263
+readme.txt                                          DECCA33A6308C1516438B45185537211
+
+wp-toolbar-removal.css                              A03DAA8530A07D051424B0FA67489310
+wp-toolbar-removal.js                               0CFF524B3FCE96D0BEEBBD8FF3B3BA3E
+wp-toolbar-removal.php                              87C45D11CE1369031FC1B55D0BF1EE3D
+
+

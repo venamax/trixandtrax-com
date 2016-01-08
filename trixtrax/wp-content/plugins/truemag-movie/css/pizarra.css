@@ -1,0 +1,47 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*.col-izq { float:left; width:338px; margin:0 38px 0 0;}*/
+#pizarra { width:auto; height:500px; background:#20802C; padding:4px;-webkit-border-radius: 5px;margin-bottom:10px;
+-moz-border-radius: 5px;
+border-radius: 5px; }
+
+
+#pizarra .titulo-pizarra {border-bottom:1px solid #FFFFFF;}
+#pizarra .lista-colegios .item {border-bottom:1px solid #20802C;border-top:1px solid #20802C; width:100%; display:inline-block;}
+
+#pizarra .lista-colegios .item .colegio {  float:left; width:54px; height:54px;}
+#pizarra .lista-colegios .item .colegio img {margin:8px;}
+#pizarra .lista-colegios .item .bt-apoyar { float:left;  width:71px ; height:21px; }
+#pizarra .lista-colegios .item .bt-apoyar:hover {  width:71px ; height:21px; }
+#pizarra .lista-colegios .info {float:left; width:129px;}
+#pizarra .lista-colegios .info .sms {margin:3px 5px;; font-family: "Helvetica", arial, sans-serif; color:#8fc206 ;text-shadow: 2px 2px #005127; font-size:10px; text-transform:uppercase; font-weight:bold;}
+#pizarra .lista-colegios .info .nombre-colegio {padding:6px 14px; font-family: "Helvetica", arial, sans-serif; color:#fff ;text-shadow: 2px 2px #005127; font-size:11px; text-transform:uppercase; font-weight:bold;}
+#pizarra .lista-colegios .puntos-bg { width:49px; height:48px; float:right; margin:4px 0;}
+#pizarra .lista-colegios .posi-bg { width:49px; height:48px; float:left; margin:4px 0;}
+#pizarra .lista-colegios .posi-bg .puntos { font-family: "Myriad Pro", arial, sans-serif; text-transform:uppercase; font-style:italic;text-shadow: 2px 2px #005127; font-size:10px; padding:4px 2px 2px 2px; color:#8fc206;text-align:center; }
+#pizarra .lista-colegios .posi-bg .puntos-cantidad {font-family:'creativeblock_bbregular',Arial, Helvetica, sans-serif; text-transform:uppercase; text-shadow: 2px 2px #005127; font-size:22px; color:#fff;  padding:10px; text-align:center;}
+#pizarra .lista-colegios .puntos-bg .puntos { font-family: "Myriad Pro", arial, sans-serif; text-transform:uppercase; font-style:italic;text-shadow: 2px 2px #005127; font-size:10px; padding:4px 2px 2px 2px; color:#8fc206;text-align:center; }
+#pizarra .lista-colegios .puntos-bg .puntos-cantidad {font-family:'creativeblock_bbregular',Arial, Helvetica, sans-serif; text-transform:uppercase; text-shadow: 2px 2px #005127; font-size:15px; color:#fff;  padding:2px; text-align:center;}
+#pizarra .lista-colegios {height:238px;}
+
+#pizarra .inf-pizarra .info{font-family: "Myriad Pro", arial, sans-serif; text-shadow: 2px 2px #005127; font-size:17px; padding:8px 2px 2px 2px; color:#fff; margin: 10px; width: auto; vertical-align:super;}
+#pizarra .inf-pizarra .ico-potazo { width:69px; height:79px; position:absolute; left:0;bottom:20px; float:left;}
+#pizarra .inf-pizarra {position:relative; height:78px;}
+#pizarra .inf-pizarra .info img { vertical-align:middle; }
+#pizarra .inf-pizarra .info .texto-verde {font-family:'creativeblock_bbregular',Arial, Helvetica, sans-serif; text-transform:uppercase; text-shadow: 2px 2px #005127; font-size:17px; color:#a4dc0d; padding:2px 0 3px 0;}
+
+.otw-sidebar .otw-sidebar-1 .otw-sidebar-vertical #pizarra .lista-colegios .item .colegio img {max-width: 65%}
+
+/*scrollbar*/
+
+
+#scrollbar1 { width: auto; clear: both;  }
+#scrollbar1 .viewport { width: auto; height: 305px; overflow-x: hidden; overflow-y:scroll; position: relative; }
+#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
+#scrollbar1 .scrollbar{ background: transparent no-repeat 0 0; position: relative; background-position: 0 0; float: right; width: 15px; z-index:50; }
+#scrollbar1 .track { background: transparent no-repeat 0 100%; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#scrollbar1 .thumb { background: transparent no-repeat 50% 100%; height: 20px; width: 25px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: -5px; }
+#scrollbar1 .thumb .end { background: transparent no-repeat 50% 0; overflow: hidden; height: 5px; width: 25px; }
+#scrollbar1 .disable { display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }

